@@ -8,8 +8,10 @@ icu.dashboard contains the following features:
 - Export of patient demographics.
 - Provision of a dashboard for custom graphical presentations of e.g. case numbers, outcomes, quality key figures, etc. THIS FEATURE IS STILL UNDER CONSTRUCTION.
 
+All documentation and the source code of this R shiny application is in English language. However, the user interface (UI) is in German language. Currently there is no english translation available for the UI.
+
 ## License
-icu.dashboard is an open source application and distributed under GPL-3 (GNU GENERAL PUBLIC LICENSE version 3).
+icu.dashboard is an open source application and distributed under GPL-3 (GNU GENERAL PUBLIC LICENSE version 3). Therefore, sharing and improvements of this application are highly appreciated.
 
 ## Installation instructions
 TODO
