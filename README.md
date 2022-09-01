@@ -1,5 +1,5 @@
 # icu.dashboard
-icu.dashboard is a web application based on R shiny for export and analysis of patient data which was collected with the intensive care information system (patient data management system) ICM of Dräger Medical Germany (Lübeck, Germany). This web application accesses the ICM reporting database, which is provided by ICM for this purpose (e.g. data analysis, export, quality management).
+icu.dashboard is a web application based on R shiny for export and analysis of patient data which were documented and collected by the intensive care information system (patient data management system) ICM of Dräger Medical Germany (Lübeck, Germany). This web application accesses the ICM reporting database, which is provided by ICM for this purpose (e.g. data analysis, export, quality management).
 
 icu.dashboard contains the following features:
 - Raw export of all patient-related data, which is available in the order tables of ICM reporting database.
