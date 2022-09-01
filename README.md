@@ -8,7 +8,7 @@ icu.dashboard contains the following features:
 - Export of patient demographics.
 - Provision of a dashboard for custom graphical presentations of e.g. case numbers, outcomes, quality key figures, etc. THIS FEATURE IS STILL UNDER CONSTRUCTION.
 
-## Licence
+## License
 icu.dashboard is an open source application and distributed under GPL-3 (GNU GENERAL PUBLIC LICENSE version 3).
 
 ## Installation instructions
