@@ -17,8 +17,21 @@ This application comes with a Oracle Database JDBC driver (ojdbc7.jar) which is 
 ## Installation instructions
 Please obtain a current release of [R](https://cran.r-project.org/) and [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/) and install them (first R, then RStudio).
 
+This R shiny applications is dependent on the following R packages, please install them as well:
+- RJDBC
+- stringr
+- tidyverse
+- lubridate
+- rintrojs
+- shiny
+- shinyBS
+- shinydashboard
+- shinydashboardPlus
+- shinyjs
+- waiter
+
 ## Configuration
-TODO
+The main configuration of the web application is done in the .Renviron file.
 
 ## Instruction manual
 TODO
