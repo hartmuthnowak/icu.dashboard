@@ -1,0 +1,81 @@
+# Set JAVA Path - if necessary
+JAVA_HOME=C:/Program Files/Java/jre8/
+ 
+# ---------------
+# App Information
+# ---------------
+ 
+INFO_APP_NAME=ICU.dashboard
+INFO_VERSION=0.3
+INFO_DATE=02.09.2022
+ 
+# -------------------
+# Database connection
+# -------------------
+ 
+# SQL Driver (JDBC), located in App directory
+SQL_DRIVER_NAME=oracle.jdbc.OracleDriver
+SQL_DRIVER_FILE=ojdbc7.jar
+SQL_DRIVER_CONN_PRESTRING="jdbc:oracle:thin:@"
+ 
+# SQL server credentials
+# - for more than one server provide values separated by commas (,)
+DB_NAME="IOI,MNI,STX"
+DB_SERVER="10.203.51.71,10.203.51.71,10.203.51.71"
+DB_PORT="1521,1521,1521"
+DB_DATABASE="carerep,carerep,carerep"
+DB_USERNAME="icmrep01b,icmrep01a,icmrep01c"
+DB_PASSWORD="icmrep01b,icmrep01a,icmrep01c"
+ 
+# --------------------------------------------------------------------
+# Settings - modifications possible without program code modifications
+# --------------------------------------------------------------------
+ 
+# Data export - raw - filter
+CONFIG_RAW_AGE_START=0
+CONFIG_RAW_AGE_END=130
+CONFIG_RAW_DATE_START=01.01.2015
+CONFIG_RAW_CASE_IDS_NAMES_PRESELECTED="KIS Fallnummern"
+ 
+# Data export - raw/aggregated - timesplit bins
+CONFIG_AGGREGATED_TIMESPAN_PRESELECTED="tageweise"
+ 
+# Dashboard - cases
+CONFIG_DASHBOARD_CASES_DATE_START=01.01.2015
+CONFIG_DASHBOARD_CASES_PRESELECTED_INTERVAL=3
+CONFIG_DASHBOARD_CASES_PLOT_YEAR_Y_AXIS_MAJOR_BREAKS=500
+CONFIG_DASHBOARD_CASES_PLOT_YEAR_Y_AXIS_MINOR_BREAKS=100
+CONFIG_DASHBOARD_CASES_PLOT_MONTH_Y_AXIS_MAJOR_BREAKS=50
+CONFIG_DASHBOARD_CASES_PLOT_MONTH_Y_AXIS_MINOR_BREAKS=10
+CONFIG_DASHBOARD_CASES_PLOT_DAY_Y_AXIS_MAJOR_BREAKS=5
+CONFIG_DASHBOARD_CASES_PLOT_DAY_Y_AXIS_MINOR_BREAKS=1
+ 
+# Dashboard - ICU mortality
+CONFIG_DASHBOARD_DEATH_IDENTIFYING_TARGETWARD="Exitus"
+CONFIG_DASHBOARD_DEATH_DATE_START=01.01.2015
+CONFIG_DASHBOARD_DEATH_PRESELECTED_INTERVAL=3
+CONFIG_DASHBOARD_DEATH_PLOT_YEAR_Y_AXIS_MAJOR_BREAKS=500
+CONFIG_DASHBOARD_DEATH_PLOT_YEAR_Y_AXIS_MINOR_BREAKS=100
+CONFIG_DASHBOARD_DEATH_PLOT_MONTH_Y_AXIS_MAJOR_BREAKS=50
+CONFIG_DASHBOARD_DEATH_PLOT_MONTH_Y_AXIS_MINOR_BREAKS=10
+CONFIG_DASHBOARD_DEATH_PLOT_DAY_Y_AXIS_MAJOR_BREAKS=5
+CONFIG_DASHBOARD_DEATH_PLOT_DAY_Y_AXIS_MINOR_BREAKS=1
+ 
+# --------------------------------------------------------------
+# Constants - modifications also need program code modifications
+# --------------------------------------------------------------
+ 
+# Data export - raw - filter
+CONFIG_RAW_GENDER_NAMES="maennlich,weiblich,divers,unbekannt"
+CONFIG_RAW_GENDER_IDS="0,1,9,2"
+CONFIG_RAW_GENDER_PRESELECTED_IDS="0,1,9,2"
+CONFIG_RAW_CASE_IDS_NAMES="KIS Fallnummern,ICM Fallnummern"
+ 
+# Data export - raw/aggregated - timesplit bins
+CONFIG_AGGREGATED_TIMESPAN_BINS="stundenweise,tageweise,wochenweise"
+ 
+# Dashboard - cases
+CONFIG_DASHBOARD_CASES_INTERVALS="Tag,Monat,Jahr"
+ 
+# Dashboard - ICU mortality
+CONFIG_DASHBOARD_DEATH_INTERVALS="Tag,Monat,Jahr"
