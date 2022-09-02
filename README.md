@@ -35,7 +35,12 @@ The main configuration of the web application is done in the .Renviron file.
 
 - Please set `JAVA_HOME` to the location of your java installation (if not set via PATH variables).
 - Please set server credentials for the variables `DB_NAME, DB_SERVER, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD`. If you want to configure more than one database connection please separate each setting by a comma (,) without spacing characters. The count of settings separated by commas need to be identical in all of these variables.
-- - `DB_NAME`: Identifying name of database connection (will be displayed in a dropdown for selection)
+  - `DB_NAME`: Identifying name of database connection (will be displayed in a dropdown for selection)
+  - `DB_SERVER`: Derver address (domain name or IP)
+  - `DB_PORT`: Server port (normally 1521 for Oracle databases)
+  - `DB_DATABASE`: Database name
+  - `DB_USERNAME`: Username
+  - `DB_PASSWORD`: Password
 
 ## Instruction manual
 TODO
