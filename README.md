@@ -41,7 +41,7 @@ The main configuration of the web application is done in the .Renviron file.
   - `DB_DATABASE`: Database name
   - `DB_USERNAME`: Username
   - `DB_PASSWORD`: Password
-- Please set the ICM target ward, where patients are discharged to when the died on ICU in the variable `CONFIG_DASHBOARD_DEATH_IDENTIFYING_TARGETWARD` (e.g. "Exitus")
+- Please set the ICM target ward, where patients are discharged to when they died on ICU in the variable `CONFIG_DASHBOARD_DEATH_IDENTIFYING_TARGETWARD` (e.g. "Exitus")
 - If settings are changed within the .Renviron file the R project needs to be loaded again for update of the settings.
 
 ## Instruction manual
