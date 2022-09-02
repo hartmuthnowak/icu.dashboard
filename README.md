@@ -12,6 +12,7 @@ All documentation and the source code of this R shiny application is in English 
 
 ## License
 ICU.dashboard is an open source application and distributed under GPL-3 (GNU GENERAL PUBLIC LICENSE version 3). Therefore, sharing and improvements of this application are highly appreciated.
+This application comes with a Oracle Database JDBC driver (ojdbc7.jar) which is governed by the No-clickthrough FUTC license (see LICENSE_OJDBC).
 
 ## Installation instructions
 TODO
