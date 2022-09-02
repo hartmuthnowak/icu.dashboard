@@ -15,7 +15,7 @@ ICU.dashboard is an open source application and distributed under GPL-3 (GNU GEN
 This application comes with a Oracle Database JDBC driver (ojdbc7.jar) which is governed by the No-clickthrough FUTC license (see LICENSE_OJDBC).
 
 ## Installation instructions
-TODO
+Please obtain a current release of [R](https://cran.r-project.org/) and [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/) and install them (first R, then RStudio).
 
 ## Configuration
 TODO
