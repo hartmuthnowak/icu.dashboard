@@ -33,5 +33,7 @@ This R shiny applications is dependent on the following R packages, please insta
 ## Configuration
 The main configuration of the web application is done in the .Renviron file.
 
+Please set `JAVA_HOME` to the location of your java installation (if not set via PATH variables)
+
 ## Instruction manual
 TODO
