@@ -30,10 +30,11 @@ This R shiny applications is dependent on the following R packages, please insta
 - shinyjs
 - waiter
 
-## Configuration
+## Basic Configuration
 The main configuration of the web application is done in the .Renviron file.
 
-Please set `JAVA_HOME` to the location of your java installation (if not set via PATH variables)
+- Please set `JAVA_HOME` to the location of your java installation (if not set via PATH variables).
+- Please set server credentials for the variables `DB_NAME, DB_SERVER, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD`. If you want to configure more than one database connection please separate each setting by a comma (,). The count of settings separated by commas need to be identical in all of these variables.
 
 ## Instruction manual
 TODO
